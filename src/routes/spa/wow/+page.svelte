@@ -1,5 +1,5 @@
 <script lang="ts">
-	let num = $state(0);
+	import { counter } from '../spa.svelte';
 </script>
 
 <h1>WOW</h1>
@@ -13,17 +13,17 @@
 </p>
 <p><a href="/spa/yay">yay page</a>yay</p>
 
-<div>{num}</div>
+<div class="counter">counter: { counter.num }</div>
 
 <button
 	onclick={() => {
-		num += 1;
+		counter.num += 1;
 	}}>+</button
 >
 
 <button
 	onclick={() => {
-		num -= 1;
+		counter.num -= 1;
 	}}>-</button
 >
 
