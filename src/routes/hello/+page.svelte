@@ -1,6 +1,6 @@
 <script>
-	import Title from 'component/Title.svelte';
+	import Title from '$lib/component/Title.svelte';
 </script>
 
-<Title text = "Hello page"></Title>
+<Title text="Hello page"></Title>
 <p>sdfasdfasdfa</p>
