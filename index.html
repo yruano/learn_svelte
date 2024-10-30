@@ -2,35 +2,49 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/learn_svelte/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/entry/start.B1q9NdrP.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/entry.BYKaJFky.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/runtime.D8CJINQy.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/paths.BTxQTh-n.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/entry/app.pyEXxORy.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/render.D7t4C2Tc.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/disclose-version.9_UAcSXF.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/proxy.ClLU26zx.js">
-		<link rel="modulepreload" href="/learn_svelte/_app/immutable/chunks/store.DemSpcvO.js">
+		<link href="./_app/immutable/assets/Title.j7MeOqMn.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.C6e_wmgn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.BvNmYBcs.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.D8CJINQy.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.C3WIqc8L.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DsG9xN-l.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/render.D7t4C2Tc.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/disclose-version.9_UAcSXF.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/proxy.ClLU26zx.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/store.DemSpcvO.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.BWaxLoQ6.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/layout.gauAwGdJ.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.Ll_u8QIe.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/attributes.uWQmjwVT.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Title.3N5YPKOV.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+		<div style="display: contents"><!--[--><!--[--><!----><!--[!--><!----><h1 class="svelte-bt9zrl">main page</h1><!----> <p>Visit <a href="./about">about page</a> to read the documentation</p> <p>Visit <a href="./hello">hello page</a> to read the documentation</p> <p>Visit <a href="./spa">spa page</a> to read the documentation</p><!----><!--]--><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
+			
 			<script>
 				{
-					__sveltekit_1cdmdfh = {
-						base: "/learn_svelte",
+					__sveltekit_1p20fy3 = {
+						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/learn_svelte"
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("/learn_svelte/_app/immutable/entry/start.B1q9NdrP.js"),
-						import("/learn_svelte/_app/immutable/entry/app.pyEXxORy.js")
+						import("./_app/immutable/entry/start.C6e_wmgn.js"),
+						import("./_app/immutable/entry/app.DsG9xN-l.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>
