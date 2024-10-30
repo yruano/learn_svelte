@@ -1,0 +1,1 @@
+import{a as s,t as o}from"./disclose-version.9_UAcSXF.js";import{t as m,c as p,r as l}from"./runtime.D8CJINQy.js";import{s as f}from"./render.D7t4C2Tc.js";var i=o('<h1 class="svelte-bt9zrl"> </h1>');function x(e,a){var t=i(),r=p(t,!0);l(t),m(()=>f(r,a.text)),s(e,t)}export{x as T};
